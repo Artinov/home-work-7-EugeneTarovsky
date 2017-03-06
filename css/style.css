@@ -65,9 +65,10 @@ h1 h2 h3 h4{
 	color: #fff !important;
 }
 
-.navbar-nav {
+.navbar-nav > li > a {
 	font-size: 14px !important;
 	color: #fff !important;
+
 }
 
 .navbar-default {
@@ -116,6 +117,29 @@ h1 h2 h3 h4{
 	padding: 40px;
 }
 
-.fa-facebook-official {
-	font-size: 50px;
+.star-row-about {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.star-row {
+
+}
+
+hr {
+	width: 100px;
+	border-top: 5px solid white !important;
+	display: inline-block;
+	margin-bottom: 12px !important;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+}
+
+.hr-black {
+	color: #000000 !important;
+	border-top: 5px solid #333333 !important;
+}
+
+.fa {
+	margin: 10px;
 }
